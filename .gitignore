@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/csharp,angular,node,linux,vscode,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,angular,node,linux,vscode,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/csharp,node,angular,sass,visualstudio,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,node,angular,sass,visualstudio,visualstudiocode
 
 ### Angular ###
 ## Angular ##
@@ -386,20 +386,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-### Linux ###
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
 ### Node ###
 # Logs
 logs
@@ -508,13 +494,21 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### vscode ###
+### Sass ###
+*.css.map
+*.sass.map
+*.scss.map
+
+### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### VisualStudio ###
 
@@ -674,4 +668,4 @@ dist
 
 # Ionide (cross platform F# VS Code tools) working folder
 
-# End of https://www.toptal.com/developers/gitignore/api/csharp,angular,node,linux,vscode,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/csharp,node,angular,sass,visualstudio,visualstudiocode
